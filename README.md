@@ -73,3 +73,53 @@ private void button_click(object sender, EventArgs e)
 
     txtInput.Text += button.Text;
 }
+
+### **Operator Buttons**
+```csharp
+private void operator_click(object sender, EventArgs e)
+{
+    // Implement logic for handling operator clicks.
+    // Store the current number and operator for further operations.
+}
+Clear Buttons
+
+private void btnCE_Click(object sender, EventArgs e)
+{
+    txtInput.Text = "0";
+}
+
+private void btnClear_Click(object sender, EventArgs e)
+{
+    txtInput.Text = "0";
+    // Reset stored values and operators.
+}
+Equals Button
+
+private void btnEqual_Click(object sender, EventArgs e)
+{
+    // Perform the calculation based on the stored operator.
+}
+
+### **Expected Output** ✅
+The calculator should:
+
+Accept numeric input via buttons. 🔢
+Perform basic arithmetic operations. ➕➖✖️➗
+Clear the input field when CE or C is pressed. 🧹
+Display results in the txtInput text box. 📋
+Customization 🎨
+
+Feel free to adjust the layout and appearance to suit your preferences, as long as the calculator behaves as described. 🌟
+
+### **Tools Used** 🛠️
+
+Microsoft Visual Studio: IDE for developing the Windows Forms application. 🖥️
+C#: Programming language for logic implementation. 🖋️
+
+### **How to Run** ▶️
+
+Open the project in Visual Studio. 🛠️
+Build and run the application using the Start button. 🚀
+Interact with the calculator to perform calculations. ✍️
+
+

@@ -74,6 +74,8 @@ private void button_click(object sender, EventArgs e)
     txtInput.Text += button.Text;
 }
 
+---
+
 ### **Operator Buttons**
 ```csharp
 private void operator_click(object sender, EventArgs e)
@@ -100,6 +102,8 @@ private void btnEqual_Click(object sender, EventArgs e)
     // Perform the calculation based on the stored operator.
 }
 
+---
+
 ### **Expected Output** ✅
 The calculator should:
 
@@ -111,10 +115,13 @@ Customization 🎨
 
 Feel free to adjust the layout and appearance to suit your preferences, as long as the calculator behaves as described. 🌟
 
+---
 ### **Tools Used** 🛠️
 
 Microsoft Visual Studio: IDE for developing the Windows Forms application. 🖥️
 C#: Programming language for logic implementation. 🖋️
+
+---
 
 ### **How to Run** ▶️
 
